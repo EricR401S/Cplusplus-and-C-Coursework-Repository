@@ -1,0 +1,8 @@
+c - a leaf node
+d - height differs by 1
+c - O(N) as in AOP
+d - leaf node - AOP
+h - 1, 6, 16, 99
+g - 22
+c - 5 from 16 to root 9
+b - 

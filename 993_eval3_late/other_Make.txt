@@ -1,0 +1,25 @@
+cyoa-step2: generate_story.o step2.o
+	g++ -o cyoa-step2 -std=gnu++98 -Wall -Werror -ggdb3 generate_story.o step2.o
+
+
+step2.o: step2.cpp my_story_class.hpp
+	g++ -c -std=gnu++98 -Wall -Werror -ggdb3 step2.cpp
+
+
+
+cyoa-step1: generate_story.o step1.o
+	g++ -o cyoa-step1 -std=gnu++98 -Wall -Werror -ggdb3 generate_story.o step1.o
+
+
+step1.o: step1.cpp my_story_class.hpp
+	g++ -c -std=gnu++98 -Wall -Werror -ggdb3 step1.cpp
+
+
+
+generate_story.o: generate_story.cpp my_story_class.hpp
+	g++ -c  -std=gnu++98 -Wall -Werror -ggdb3 generate_story.cpp
+
+
+
+clean:
+	rm -f *~ story1

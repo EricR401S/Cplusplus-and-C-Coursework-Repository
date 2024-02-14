@@ -1,0 +1,7 @@
+Page 0
+==========
+Are newline choices a problem.
+
+What would you like to do?
+
+ 1.

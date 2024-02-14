@@ -1,0 +1,22 @@
+#error
+printSsData step1testcases/bad_badavg.csv
+printSsData step1testcases/bad_badmonth.csv
+printSsData step1testcases/bad_badovermonth.csv
+printSsData step1testcases/bad_badyear.csv
+printSsData step1testcases/bad_charmonth.csv
+printSsData step1testcases/bad_funnymonth.csv
+printSsData step1testcases/bad_null.csv
+printSsData step1testcases/bad_over_space.csv
+printSsData step1testcases/bad_ones_s1.csv
+
+#success
+printSsData step1testcases/goods1.csv
+printSsData step1testcases/goods2.csv
+printFilteredSsData sunspots_data.csv 71
+printLocalMax step3_data/sunspots_data_filtered_71_part00.csv
+printLocalMax step3_data/sunspots_data_filtered_71_part01.csv
+printLocalMax step3_data/sunspots_data_filtered_71_part02.csv
+printLocalMax step3_data/sunspots_data_filtered_71_part03.csv
+printLocalMax step3_data/sunspots_data_filtered_71_part04.csv
+printSsPeriod sunspots_data.csv 3
+printSsPeriod sunspots_data.csv 71

@@ -1,0 +1,4 @@
+cyoa-step1 story1 story1
+cyoa-step1 
+cyoa-step1 fake_dir
+cyoa-step1 bad_story/newline_destination

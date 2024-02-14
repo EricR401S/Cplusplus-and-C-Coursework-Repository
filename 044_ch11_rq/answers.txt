@@ -1,0 +1,10 @@
+b - it makes a system call
+c - format of argc , char ** argv
+b - the name of the program is always at the 0 position
+d - it is an identical copy of the process
+c - the file can only be read, so fprintf is out  
+b - it should be the start, slightly confusing
+d - the integer, to avoid EOF
+d - super vulnerable 
+f - close it
+e - similar to accessing files

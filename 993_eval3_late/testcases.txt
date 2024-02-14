@@ -1,0 +1,27 @@
+cyoa-step1 story1 story1
+cyoa-step1 
+cyoa-step1 fake_dir
+cyoa-step1 bad_story/newline_destination
+cyoa-step1 story1
+cyoa-step1 empty_choice
+cyoa-step1 s1_test_suite/bad_choice/empty_choice
+cyoa-step1 s1_test_suite/bad_choice/form1
+cyoa-step1 s1_test_suite/bad_choice/form2
+cyoa-step1 s1_test_suite/bad_declare
+cyoa-step1 s1_test_suite/bad_declare
+cyoa-step1 s1_test_suite/non_cons
+cyoa-step2 empty_choice < my_input.txt
+cyoa-step2 s2_test_suite/notenoughwinlose
+cyoa-step2 s2_test_suite/no_backref
+cyoa-step2 story1 < my_input.txt
+cyoa-step3 story2
+cyoa-step3 storyss3
+cyoa-step4 story3 < input_for_s4.txt
+cyoa-step4 story4s4 < input_for_s4.txt
+cyoa-step4 story5s5 < input_for_s4.txt
+cyoa-step4 story6s6 < input_for_s4.txt
+cyoa-step4 story7s7 < input_for_s4.txt
+cyoa-step4 story8s8 < input_for_s4.txt
+cyoa-step4 story9s9 < input_for_s4.txt
+cyoa-step4 story0s0 < input_for_s4.txt
+cyoa-step4 storyXsX < input_for_s4.txt

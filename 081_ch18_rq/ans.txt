@@ -1,0 +1,11 @@
+c -  only frieds, class and child
+e - 1 and 3 //
+e - cat then animal //
+a - runtime
+c - abstract pure virtual 
+b - common members
+c - dynamic dispatch
+d - UML diagrams
+b - after method : 
+b - polymorphism 
+b - destructor 

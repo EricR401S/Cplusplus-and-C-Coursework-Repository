@@ -1,0 +1,12 @@
+d - the bigger picture, not all the minute details ///
+a - C does not handle name mangling ///
+c - 2 arguments, one is this, the other int x ///
+c - a constant pointer to the class object itself ///
+b - you cxoxoan't point at an int & - global variable issue ??
+a - classes are nouns ///
+b - methods are verbs ///
+d - POD, if it can be done in C = POD ///
+a - similar but different to a pointer
+d - scope resolution operator , /// 
+b - a const type
+b - the object is protected from modification ///

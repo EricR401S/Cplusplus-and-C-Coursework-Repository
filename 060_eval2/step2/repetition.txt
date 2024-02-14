@@ -1,0 +1,8 @@
+animal:bunny
+animal:bunny
+animal:bunny
+animal:dog
+animal:dog
+robot:gundam
+robot:mazinger
+game:persona5

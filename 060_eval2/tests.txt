@@ -1,0 +1,25 @@
+story-step1 story.txt
+story-step1 step1/bad_s1_uneven_uc.txt
+story-step1 step1/empty.txt
+story-step1 step1/joined_uc.txt
+story-step1 step1/doesnotexist.txt
+story-step1 step1/starting_uc.txt
+story-step1 step1/uc_space.txt
+story-step2 words.txt
+story-step2 step2/no_colon.txt
+story-step2 step2/does_not_exist.txt
+story-step2 step2/empty_line.txt
+story-step2 step2/empty.txt
+story-step2 step2/no_cat.txt
+story-step2 step2/no_word.txt
+story-step2 step2/one_colon.txt
+story-step2 step2/repetition.txt
+story-step3 words.txt
+story-step3 story.txt words.txt
+story-step3 does_not_exist.txt does_not_live.txt
+story-step3 words.txt story.txt
+story-step3 words.txt story2.txt
+story-step4 words.txt story2.txt
+story-step4 -n words.txt story2.txt
+story-step4 -n special_words.txt special_story.txt
+story-step4 words.txt story2.txt -n

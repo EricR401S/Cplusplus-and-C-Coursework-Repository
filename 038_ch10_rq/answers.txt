@@ -1,0 +1,18 @@
+e - double checked, a valid string ends with a nul l terminator
+e - double checked, the proper type enforced by us is const char *
+d - the program crashes
+d - I checked, strcmponlyreturnsnumbers, 0iftrueforfunc,0isfalseinregif
+d - double checked, just a pointer situation
+d - drew it in notebook, large integer after ASCII conversion
+g - it is 6 by indexing
+j - It is 9, pointer to first element of row ind 2, then advance by 1 
+e - It is 3 x 4 x 4 = 48 bytes
+c - 3 rows of 8 byte pointers, 24 bytes
+g - 72 bytes, 24 + 48 above
+b - myMatrix is not  an lvalue, the pointers inside yes, myMatrix [ 0 ] 
+a - numbers, everything is a number
+d - I checked the syntax in the book, need to ask concept questions
+c - a pointer to a func tion just points to the first instruction in a func
+b - it uses the function to run the comparisons
+c - everything is a number, it was shown in an attack in Drew's video
+c - SQL injection attack, I saw this in another course

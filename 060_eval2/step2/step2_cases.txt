@@ -1,0 +1,6 @@
+empty_line.txt
+empty.txt
+no_cat.txt
+no_word.txt
+one_colon.txt
+repetition.txt

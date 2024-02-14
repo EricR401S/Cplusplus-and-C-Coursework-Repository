@@ -1,0 +1,233 @@
+Grading at 12/16/2023:20:35:46.371766
+For commit ID def34ea039643b2f909d8e17bcbe8205dc9ca41e
+Grading at Sat Dec 16 03:35:39 PM EST 2023
+
+=========================================================================
+Step 1
+
+Checking that cyoa-step1 compiles
+rm -f *~ story1
+g++ -o cyoa-step1 -std=gnu++98 -Wall -Werror -ggdb3 generate_story.o step1.o
++-----------------------------------------------------------------------+
+1.1
+./cyoa-step1 /usr/local/ece551/cyoa/storynonexist
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+1.2
+./cyoa-step1 story1
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+1.3
+./cyoa-step1 story1
+Your program did not indicate a failure case
+                                                         [0/1]
++-----------------------------------------------------------------------+
+1.4
+./cyoa-step1 story1
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+1.5
+./cyoa-step1 story1
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+1.6
+./cyoa-step1 story1
+Your program successfully indicated a failure case
+                                                         [1/1]
++-----------------------------------------------------------------------+
+1.7
+./cyoa-step1 /usr/local/ece551/cyoa/story1
+Line_1_did_not_match
+Line_2_did_not_match
+Line_3_did_not_match
+Line_4_did_not_match
+Line_5_did_not_match
+Line_6_did_not_match
+Line_7_did_not_match
+Line_8_did_not_match
+Line_9_did_not_match
+Line_10_did_not_match
+Line_11_did_not_match
+Line_12_did_not_match
+Line_13_did_not_match
+Line_14_did_not_match
+Line_15_did_not_match
+Line_16_did_not_match
+Line_17_did_not_match
+Line_18_did_not_match
+Line_19_did_not_match
+Line_20_did_not_match
+Line_21_did_not_match
+Line_22_did_not_match
+Line_23_did_not_match
+Line_24_did_not_match
+Line_25_did_not_match
+Line_26_did_not_match
+Line_27_did_not_match
+Line_28_did_not_match
+Line_29_did_not_match
+Line_30_did_not_match
+Line_31_did_not_match
+Line_32_did_not_match
+Line_33_did_not_match
+Line_34_did_not_match
+Line_35_did_not_match
+Line_36_did_not_match
+Line_37_did_not_match
+Line_38_did_not_match
+Line_39_did_not_match
+Line_40_did_not_match
+Line_41_did_not_match
+Line_42_did_not_match
+Line_43_did_not_match
+Line_44_did_not_match
+Line_45_did_not_match
+Line_46_did_not_match
+Line_47_did_not_match
+Line_48_did_not_match
+Line_49_did_not_match
+Line_50_did_not_match
+Line_51_did_not_match
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Line_56_did_not_match
+Line_57_did_not_match
+Line_58_did_not_match
+Line_59_did_not_match
+Line_60_did_not_match
+Line_61_did_not_match
+Line_62_did_not_match
+Line_63_did_not_match
+Line_64_did_not_match
+Line_65_did_not_match
+Line_66_did_not_match
+Line_67_did_not_match
+Your file did not match the expected output
+                                                         [0/7]
++-----------------------------------------------------------------------+
+1.8
+./cyoa-step1 /usr/local/ece551/cyoa/story2
+Line_1_did_not_match
+Line_2_did_not_match
+Line_3_did_not_match
+Line_4_did_not_match
+Line_5_did_not_match
+Line_6_did_not_match
+Line_7_did_not_match
+Line_8_did_not_match
+Line_9_did_not_match
+Line_10_did_not_match
+Line_11_did_not_match
+Line_12_did_not_match
+Line_13_did_not_match
+Line_14_did_not_match
+Line_15_did_not_match
+Line_16_did_not_match
+Line_17_did_not_match
+Line_18_did_not_match
+Line_19_did_not_match
+Line_20_did_not_match
+Line_21_did_not_match
+Line_22_did_not_match
+Line_23_did_not_match
+Line_24_did_not_match
+Line_25_did_not_match
+Line_26_did_not_match
+Line_27_did_not_match
+Line_28_did_not_match
+Line_29_did_not_match
+Line_30_did_not_match
+Line_31_did_not_match
+Line_32_did_not_match
+Line_33_did_not_match
+Line_34_did_not_match
+Line_35_did_not_match
+Line_36_did_not_match
+Line_37_did_not_match
+Line_38_did_not_match
+Line_39_did_not_match
+Line_40_did_not_match
+Line_41_did_not_match
+Line_42_did_not_match
+Line_43_did_not_match
+Line_44_did_not_match
+Line_45_did_not_match
+Line_46_did_not_match
+Line_47_did_not_match
+Line_48_did_not_match
+Line_49_did_not_match
+Line_50_did_not_match
+Line_51_did_not_match
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Line_56_did_not_match
+Line_57_did_not_match
+Line_58_did_not_match
+Line_59_did_not_match
+Line_60_did_not_match
+Line_61_did_not_match
+Line_62_did_not_match
+Your file did not match the expected output
+                                                         [0/7]
+
+Step 1 total                                             [5/20]
+
+=========================================================================
+Step 2
+
+Checking that cyoa-step2 compiles
+rm -f *~ story1
+The code did not compile!
+
+Step 2 total                                             [0/30]
+
+=========================================================================
+Step 3
+
+Checking that cyoa-step3 compiles
+rm -f *~ story1
+The code did not compile!
+
+Step 3 total                                             [0/20]
+
+=========================================================================
+Step 4
+
+Checking that cyoa-step4 compiles
+rm -f *~ story1
+The code did not compile!
+
+Step 4 total                                             [0/20]
+
+=========================================================================
+Code quality
+
+OOP:           Good
+Abstration:    Excellent
+Naming:        Excellent
+Formatting:    OK
+Documentation: Excellent
+Comments from your grader:
+"Nice work! Abstraction is great. Variable names are meaningful. Formatting is 
+standard. The use of OOP concepts is ok. You have several functions declared 
+outside of classes that handle file operations. These could be encapsulated 
+within a utility class or within relevant classes. 
+Recommend doing 'make clean' before adding to Git.
+Quality total                                            [9.1/10]
+
+=========================================================================
+Step 1 EC: no
+Step 2 EC: no
+Step 3 EC: no
+Step 4 EC: no
+EC points: 0
+
+Overall Grade: 14

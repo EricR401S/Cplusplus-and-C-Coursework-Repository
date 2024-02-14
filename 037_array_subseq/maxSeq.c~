@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+size_t maxSeq(int * array, size_t n) {
+  if (array == NULL) {
+    printf("Array cannot be empty");
+    exit(EXIT_FAILURE);
+  }
+
+  else if (n == 0) {
+    printf("N cannot be 0");
+    exit(EXIT_FAILURE);
+  }
+
+  else if (n == 1) {
+    return 1;
+  }
+
+  else {
+    int max_c = 1;
+
+    int c = 1;
+
+    int curr_val = array[0];
+
+    for (int i = 0; i < n; i++) {
+      if (array[i] > curr_val) {
+        c++;
+      }
+
+      else {
+        c = 1;
+      }
+
+      if (c > max_c) {
+        max_c = c;
+      }
+
+      curr_val = array[i];
+
+    }  //close for loop
+
+    return max_c;
+  }
+}

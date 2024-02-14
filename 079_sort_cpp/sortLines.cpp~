@@ -1,0 +1,45 @@
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <vector>
+
+// writing the sortlines implementation
+
+std::vector<std::string> f(std::istream & input) {
+  // read every line from this stream
+
+  // return a reference to the super vector
+}
+
+//general algorithm
+
+// read from input or read from file, figure this part out
+
+//
+//
+
+// sort the vector
+
+// for string in that vector, print everything, with std::cout
+
+// int main(int argc, char ** argv) {
+//   // arg 1 case
+//   // remember to close file, throw error if necessary
+//   if (argc == 1) {
+//     std::string s;
+//     std::cin >> x;
+//     if (!std::cin.good()) {
+//       std::cin.clear();
+//       std::string badinput;
+//       std::cin >> badinput;
+//       if (!std : good())){
+//           file_to_string_array(stdin);
+//         }
+
+//       // arg greater than 1 case - for loop
+//       // remmeber to close file, throw error if necessary
+//       else {
+//       }
+
+//       return EXIT_SUCCESS;
+//     }

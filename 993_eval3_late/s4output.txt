@@ -1,0 +1,385 @@
+0@N:start.txt is a 1 declaration page
+0:1:Purchase a chocolate croissant. is a 1 choice page
+0:2:Purchase an eclair. is a 1 choice page
+0:3:Purchase a muffin. is a 1 choice page
+1@N:croissant.txt is a 1 declaration page
+2@N:eclair.txt is a 1 declaration page
+3@N:muffin.txt is a 1 declaration page
+ The line-1$pastry=1- is a 1 variable spread declaration line
+The page number in the variable parser is1
+The page number is -1-. The variable name is -pastry- and the variable value is -1-
+The sets contents are of size -1- and the contents are -1 
+my current state map contains:
+pastry => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+
+ The line-2$pastry=2- is a 1 variable spread declaration line
+The page number in the variable parser is2
+The page number is -2-. The variable name is -pastry- and the variable value is -2-
+The sets contents are of size -2- and the contents are -1 2 
+my current state map contains:
+pastry => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+ The line-3$pastry=3- is a 1 variable spread declaration line
+The page number in the variable parser is3
+The page number is -3-. The variable name is -pastry- and the variable value is -3-
+The sets contents are of size -3- and the contents are -1 2 3 
+my current state map contains:
+pastry => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+ The line-1$gtav=-7- is a 1 variable spread declaration line
+The page number in the variable parser is1
+The page number is -1-. The variable name is -gtav- and the variable value is --7-
+The sets contents are of size -3- and the contents are -1 2 3 
+my current state map contains:
+gtav => 0
+pastry => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+The line-1$rocket1-is not a declaration or a choice page or a variable declaration.
+The line-1rocket=1-is not a declaration or a choice page or a variable declaration.
+The line-$rocket=1-is not a declaration or a choice page or a variable declaration.
+The line-1$rocket=-is not a declaration or a choice page or a variable declaration.
+The line-1$=1-is not a declaration or a choice page or a variable declaration.
+ The line-1$rocket==1- is a 1 variable spread declaration line
+The page number in the variable parser is1
+The page number is -1-. The variable name is -rocket=- and the variable value is -1-
+The sets contents are of size -3- and the contents are -1 2 3 
+my current state map contains:
+gtav => 0
+pastry => 0
+rocket= => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+ The line-1$rok=et=1- is a 1 variable spread declaration line
+The page number in the variable parser is1
+The page number is -1-. The variable name is -rok=et- and the variable value is -1-
+The sets contents are of size -3- and the contents are -1 2 3 
+my current state map contains:
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+The line-1$rocket=5hjuefuhswfui1-is not a declaration or a choice page or a variable declaration.
+The line-4000dvsdxcv$rocket=1-is not a declaration or a choice page or a variable declaration.
+The line-1$rocket1-is not a declaration or a choice page or a variable declaration.
+1:4:Leave the store is a 1 choice page
+2:4:Leave the store is a 1 choice page
+3:4:Leave the store is a 1 choice page
+4@N:direction.txt is a 1 declaration page
+4:5:Go east, out of town is a 1 choice page
+4:6:Go west, into town is a 1 choice page
+5@N:outoftown.txt is a 1 declaration page
+6@N:intown.txt is a 1 declaration page
+5:8:Jump off the road and hide behind a large rock is a 1 choice page
+5:9:Keep walking is a 1 choice page
+6:7:Buy the sword is a 1 choice page
+6:5:Decline and head out of town is a 1 choice page
+7@N:sword.txt is a 1 declaration page
+ The line-7$sword=1- is a 1 variable spread declaration line
+The page number in the variable parser is7
+The page number is -7-. The variable name is -sword- and the variable value is -1-
+The sets contents are of size -4- and the contents are -1 2 3 7 
+my current state map contains:
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+sword => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+Page number : 7 => 
+0. Variable, value -sword, 1-
+
+ The line-7$broke=1- is a 1 variable spread declaration line
+The page number in the variable parser is7
+The page number is -7-. The variable name is -broke- and the variable value is -1-
+The sets contents are of size -4- and the contents are -1 2 3 7 
+my current state map contains:
+broke => 0
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+sword => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+Page number : 7 => 
+0. Variable, value -sword, 1-
+1. Variable, value -broke, 1-
+
+8@N:dragon.txt is a 1 declaration page
+ The line-8$errorhaha=1- is a 1 variable spread declaration line
+The page number in the variable parser is8
+The page number is -8-. The variable name is -errorhaha- and the variable value is -1-
+The sets contents are of size -5- and the contents are -1 2 3 7 8 
+my current state map contains:
+broke => 0
+errorhaha => 0
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+sword => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+Page number : 7 => 
+0. Variable, value -sword, 1-
+1. Variable, value -broke, 1-
+
+Page number : 8 => 
+0. Variable, value -errorhaha, 1-
+
+7:5:Now that you have a sword, head out of town is a 1 choice page
+ The line-8[broke=0]:10:Offer the dragon your last coins.- is a conditional choice
+My conditional choice string is -8[broke=0]:10:Offer the dragon your last coins.-
+My variable -broke=0- has the name -broke- with the number -0- and the choice string itself is -8:10:Offer the dragon your last coins.-
+The parsed choice is -8:10:Offer the dragon your last coins.- and the page number is -8- and the variable is -broke- and the var number is -0-
+Hey, the KV pair added to page 8 is geared to condition the choice -Offer the dragon your last coins.- and the kv pair for the condition is - variable : broke, value : 0-
+ The line-8[sword=1]:11:Charge the dragon with your sword.- is a conditional choice
+My conditional choice string is -8[sword=1]:11:Charge the dragon with your sword.-
+My variable -sword=1- has the name -sword- with the number -1- and the choice string itself is -8:11:Charge the dragon with your sword.-
+The parsed choice is -8:11:Charge the dragon with your sword.- and the page number is -8- and the variable is -sword- and the var number is -1-
+Hey, the KV pair added to page 8 is geared to condition the choice -Charge the dragon with your sword.- and the kv pair for the condition is - variable : sword, value : 1-
+ The line-8[pastry=1]:12:Offer the dragon the chocolate croissant.- is a conditional choice
+My conditional choice string is -8[pastry=1]:12:Offer the dragon the chocolate croissant.-
+My variable -pastry=1- has the name -pastry- with the number -1- and the choice string itself is -8:12:Offer the dragon the chocolate croissant.-
+The parsed choice is -8:12:Offer the dragon the chocolate croissant.- and the page number is -8- and the variable is -pastry- and the var number is -1-
+Hey, the KV pair added to page 8 is geared to condition the choice -Offer the dragon the chocolate croissant.- and the kv pair for the condition is - variable : pastry, value : 1-
+ The line-8[pastry=2]:13:Squirt the eclair filling in the dragon's eye.- is a conditional choice
+My conditional choice string is -8[pastry=2]:13:Squirt the eclair filling in the dragon's eye.-
+My variable -pastry=2- has the name -pastry- with the number -2- and the choice string itself is -8:13:Squirt the eclair filling in the dragon's eye.-
+The parsed choice is -8:13:Squirt the eclair filling in the dragon's eye.- and the page number is -8- and the variable is -pastry- and the var number is -2-
+Hey, the KV pair added to page 8 is geared to condition the choice -Squirt the eclair filling in the dragon's eye.- and the kv pair for the condition is - variable : pastry, value : 2-
+ The line-8[pastry=3]:14:Throw the muffin at the dragon's nose and run for it!- is a conditional choice
+My conditional choice string is -8[pastry=3]:14:Throw the muffin at the dragon's nose and run for it!-
+My variable -pastry=3- has the name -pastry- with the number -3- and the choice string itself is -8:14:Throw the muffin at the dragon's nose and run for it!-
+The parsed choice is -8:14:Throw the muffin at the dragon's nose and run for it!- and the page number is -8- and the variable is -pastry- and the var number is -3-
+Hey, the KV pair added to page 8 is geared to condition the choice -Throw the muffin at the dragon's nose and run for it!- and the kv pair for the condition is - variable : pastry, value : 3-
+ The line-8[pastry=-49]:14:Play Metal Gear Solid in front of the dragon.- is a conditional choice
+My conditional choice string is -8[pastry=-49]:14:Play Metal Gear Solid in front of the dragon.-
+My variable -pastry=-49- has the name -pastry- with the number --49- and the choice string itself is -8:14:Play Metal Gear Solid in front of the dragon.-
+The parsed choice is -8:14:Play Metal Gear Solid in front of the dragon.- and the page number is -8- and the variable is -pastry- and the var number is --49-
+Hey, the KV pair added to page 8 is geared to condition the choice -Play Metal Gear Solid in front of the dragon.- and the kv pair for the condition is - variable : pastry, value : -49-
+8:15:Ask the dragon if he has heard any good jokes lately. is a 1 choice page
+The line-[pastry=10]:14:Throw the muffin at the dragon's nose and run for it!-is not a declaration or a choice page or a variable declaration.
+The line-8[pa]stry=-77]:14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+The line-8[pastry=-3]77:14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+The line-8[pastry=-3] :14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+The line-8[pastry=]:14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+The line-8[=-5]:14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+The line-8p[astry=-77]:14:Play Metal Gear Solid in front of the-is not a declaration or a choice page or a variable declaration.
+The line-8]pastry=-77[:14:Dragon's Dogma-is not a declaration or a choice page or a variable declaration.
+9@L:dragonsnack.txt is a 1 declaration page
+10@W:coins.txt is a 1 declaration page
+11@L:attack.txt is a 1 declaration page
+12@W:offercroissant.txt is a 1 declaration page
+13@N:squirteclair.txt is a 1 declaration page
+ The line-13[broke=0]:16:Fling your last coins at the dragon- is a conditional choice
+My conditional choice string is -13[broke=0]:16:Fling your last coins at the dragon-
+My variable -broke=0- has the name -broke- with the number -0- and the choice string itself is -13:16:Fling your last coins at the dragon-
+The parsed choice is -13:16:Fling your last coins at the dragon- and the page number is -13- and the variable is -broke- and the var number is -0-
+Hey, the KV pair added to page 13 is geared to condition the choice -Fling your last coins at the dragon- and the kv pair for the condition is - variable : broke, value : 0-
+ The line-13[sword=1]:17:Attack the dragon with your sword- is a conditional choice
+My conditional choice string is -13[sword=1]:17:Attack the dragon with your sword-
+My variable -sword=1- has the name -sword- with the number -1- and the choice string itself is -13:17:Attack the dragon with your sword-
+The parsed choice is -13:17:Attack the dragon with your sword- and the page number is -13- and the variable is -sword- and the var number is -1-
+Hey, the KV pair added to page 13 is geared to condition the choice -Attack the dragon with your sword- and the kv pair for the condition is - variable : sword, value : 1-
+ The line-13[broke=0]:18:Run for it!- is a conditional choice
+My conditional choice string is -13[broke=0]:18:Run for it!-
+My variable -broke=0- has the name -broke- with the number -0- and the choice string itself is -13:18:Run for it!-
+The parsed choice is -13:18:Run for it!- and the page number is -13- and the variable is -broke- and the var number is -0-
+Hey, the KV pair added to page 13 is geared to condition the choice -Run for it!- and the kv pair for the condition is - variable : broke, value : 0-
+ The line-13[broke=1]:19:Run for it!- is a conditional choice
+My conditional choice string is -13[broke=1]:19:Run for it!-
+My variable -broke=1- has the name -broke- with the number -1- and the choice string itself is -13:19:Run for it!-
+The parsed choice is -13:19:Run for it!- and the page number is -13- and the variable is -broke- and the var number is -1-
+Hey, the KV pair added to page 13 is geared to condition the choice -Run for it!- and the kv pair for the condition is - variable : broke, value : 1-
+ The line-13[SONIC=100]:16:Gotta go faster, faster, Sonic Sonic Sonic X!!!- is a conditional choice
+My conditional choice string is -13[SONIC=100]:16:Gotta go faster, faster, Sonic Sonic Sonic X!!!-
+My variable -SONIC=100- has the name -SONIC- with the number -100- and the choice string itself is -13:16:Gotta go faster, faster, Sonic Sonic Sonic X!!!-
+The parsed choice is -13:16:Gotta go faster, faster, Sonic Sonic Sonic X!!!- and the page number is -13- and the variable is -SONIC- and the var number is -100-
+Hey, the KV pair added to page 13 is geared to condition the choice -Gotta go faster, faster, Sonic Sonic Sonic X!!!- and the kv pair for the condition is - variable : SONIC, value : 100-
+14@L:throwmuffin.txt is a 1 declaration page
+15@N:jokes.txt is a 1 declaration page
+15:20:What 80s band would sing "You have to fight for your right to lg(N) search?" is a 1 choice page
+15:21:What do you call it when you see the same ghost twice? is a 1 choice page
+15:22:Knock knock. is a 1 choice page
+16@L:threwcoins.txt is a 1 declaration page
+17@W:attackblind.txt is a 1 declaration page
+18@L:runcoins.txt is a 1 declaration page
+19@W:runbroke.txt is a 1 declaration page
+20@L:lgn.txt is a 1 declaration page
+21@W:dejaboo.txt is a 1 declaration page
+22@W:knock.txt is a 1 declaration page
+The page number in the variable parser is7
+The sets contents are of size -5- and the contents are -1 2 3 7 8 
+my current state map contains:
+SHADOW => 0
+SONIC => 0
+broke => 0
+errorhaha => 0
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+sword => 0
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+Page number : 7 => 
+0. Variable, value -sword, 1-
+1. Variable, value -broke, 1-
+2. Variable, value -SHADOW, 5-
+
+Page number : 8 => 
+0. Variable, value -errorhaha, 1-
+
+The sets contents are of size -5- and the contents are -1 2 3 7 8 
+my current state map contains:
+SHADOW => 5
+SONIC => 0
+broke => 1
+errorhaha => 0
+gtav => 0
+pastry => 0
+rocket= => 0
+rok=et => 0
+sword => 1
+my aux  map contains:
+Page number : 1 => 
+0. Variable, value -pastry, 1-
+1. Variable, value -gtav, -7-
+2. Variable, value -rocket=, 1-
+3. Variable, value -rok=et, 1-
+
+Page number : 2 => 
+0. Variable, value -pastry, 2-
+
+Page number : 3 => 
+0. Variable, value -pastry, 3-
+
+Page number : 7 => 
+0. Variable, value -sword, 1-
+1. Variable, value -broke, 1-
+2. Variable, value -SHADOW, 5-
+3. Variable, value -SHADOW, 5-
+
+Page number : 8 => 
+0. Variable, value -errorhaha, 1-
+
+
+
+
+Starting to choose my own adventure now :::: Running checks first
+
+Begin  Adventure 
+
+
+As you bask in the morning light pouring through the bakery windows,
+your breath is taken away by the stunning display of pastries in the case.
+
+"What would you like?" The shop keeper ask cheerily.  Realizing you
+have a long journey ahead of you, you decide it is best to order
+one, but choosing is so hard.
+
+What would you like to do?
+
+ 1. Purchase a chocolate croissant.
+ 2. Purchase an eclair.
+ 3. Purchase a muffin.
+That is not a valid choice, please try again
+That is not a valid choice, please try again
+That is not a valid choice, please try again

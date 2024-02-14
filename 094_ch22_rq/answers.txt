@@ -1,0 +1,8 @@
+c - a leaf node
+d - height differs by 1
+c - O(N) as in AOP
+d - leaf node - AOP
+c - 1, 6, 22, 99//tried h multiple times
+f - 16
+c - 5 from 16 to root 9 //c
+i - 16 becomes childless, 8 is added to 7   // b

@@ -1,0 +1,3 @@
+CFLAGS=-Wall -Werror -std=gnu99 -pedantic
+my_debug: rotateMatrix.c
+	gcc $(CFLAGS) -o my_debug rotateMatrix.c

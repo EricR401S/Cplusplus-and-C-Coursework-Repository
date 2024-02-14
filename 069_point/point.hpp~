@@ -1,0 +1,17 @@
+#ifndef __mypoint_H__
+#define __mypoint_H__
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+class Point {
+ private:
+  double x;
+  double y;
+
+ public:
+  ();
+  (double init_x, double init_y);
+};
+
+#endif

@@ -1,0 +1,13 @@
+b - object being created
+d - could be no return or a void return
+d - with the tile
+c - use delete
+d - parenthesis is value, the other is default, they both use it in diffways
+d - all of the above
+h - 1,3 and 4
+b - when it needs to be destroyed,d
+a - there is a copy with assignment, could also use default as well
+b - checked it
+f - in the book
+d - except copy, all with single argument
+d - write all when using at least one

@@ -1,0 +1,39 @@
+const char * searchWord(char * category, catarray_t * cats) {
+  // Return pointer to chosen word
+  for (size_t i = 0; i < cats->n; i++) {
+    if (strcmp(category, cats->arr[i].name) == 0) {
+      if (cats->arr[i].n_words == 0) {
+        fprintf(stderr, "No words in match");
+        exit(EXIT_FAILURE);
+      }
+
+      size_t found = rand() % cats->arr[i].n_words;
+
+      while (found >= cats->arr[i].n_words) {
+        found = rand() % cats->arr[i].n_words;
+      }
+
+      return cats->arr[found].name;
+    }
+  }
+
+  // no category found
+  fprintf(stderr, "No match found");
+  exit(EXIT_FAILURE);
+}
+
+const char * chooseWord(char * category, catarray_t * cats) {
+  // Returns a pointer to the chosen string from the category
+  // within the catarray_t cats
+  const char * choice = NULL;
+
+  if (cats == NULL) {
+    return "cats";
+  }
+
+  else {
+    choice = searchWord(category, cats);
+
+    return choice;
+  }
+}

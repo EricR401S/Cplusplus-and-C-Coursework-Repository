@@ -1,0 +1,18 @@
+#include <string>
+#include <iostream>
+#include <sstream>
+
+
+std::string exp_converter(std::string ){
+
+  std::stringstream my_ss;
+
+  std::string recorded_op  = "";
+
+  std::string ex1 = "";
+
+  std::string ex2 = "";
+
+  size_t length = 
+
+    }

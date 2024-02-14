@@ -1,0 +1,14 @@
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+unsigned power(unsigned x, unsigned y);  //prototype
+
+void run_checker(unsigned x, unsigned y, unsigned right_answer) {
+  if (power(x, y) != right_answer) {
+    printf("The answer should have been %d", right_answer);
+
+    exit(EXIT_FAILURE);
+  }
+  int main() {
+    run_checker

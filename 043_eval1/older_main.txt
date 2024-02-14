@@ -1,0 +1,48 @@
+int main() {
+  char * s = "2018-12,3";
+
+  parseLine(s);
+  printf("passed s\n");
+
+  char * v = "9999-82,3.0";
+
+  parseLine(v);
+  printf("passed v\n");
+
+  char * x = "9ss99-12,3.0";
+
+  parseLine(x);
+  printf("passed x\n");
+
+  char * y = "9999-852,3.0";
+
+  parseLine(y);
+  printf("passed y\n");
+
+  char * z = "9999-u2,3.0";
+
+  parseLine(z);
+  printf("passed z\n");
+
+  char * a = "9999-82,3..2";
+
+  parseLine(a);
+  printf("passed a\n");
+
+  char * b = "9999-82,3.0       ";
+
+  parseLine(b);
+  printf("passed b\n");
+
+  char * c = "9999-2,3.0";
+
+  parseLine(c);
+  printf("passed c\n");
+
+  char * d = "9999-82,3.0                 \n";
+
+  parseLine(d);
+  printf("passed d\n");
+
+  return EXIT_SUCCESS;
+}

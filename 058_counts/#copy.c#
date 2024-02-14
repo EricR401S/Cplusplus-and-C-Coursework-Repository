@@ -1,0 +1,21 @@
+    
+    size_t name_exists = 0;
+    if (name == NULL) {
+      c->unknowns++;
+      return;
+      //c->one_count_array->count++;
+    }
+
+    else {
+      name_exists = string_exists(c, name);
+
+      if (name_exists > 0) {
+        c->unknowns
+	  one_count_t[name_exists].count++;
+      }
+
+      else {
+        assert name_exists == 0;
+        // // do something, allocate space, create new entry, initialize and so forth
+      }
+    }

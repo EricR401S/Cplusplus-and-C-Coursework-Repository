@@ -1,0 +1,55 @@
+Grading at 09/15/2023:13:19:26.692129
+For commit ID c9636ab9c96cc37b0f695f1b9adceed5bb28f960
+Grading at Fri Sep 15 09:19:25 AM EDT 2023
+**Testing broken implementation 10 **
+-------------------------------------
+
+The answer should have been 64
+**Testing broken implementation 11 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing broken implementation 1 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing broken implementation 2 **
+-------------------------------------
+
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+The answer should have been 1
+**Testing broken implementation 4 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing broken implementation 5 **
+-------------------------------------
+
+The answer should have been 64
+**Testing broken implementation 6 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing broken implementation 7 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing broken implementation 8 **
+-------------------------------------
+
+The answer should have been 64
+**Testing broken implementation 9 **
+-------------------------------------
+
+The answer should have been 4294967294
+**Testing correct implementation **
+-------------------------------------
+
+
+All tests were ok.
+
+
+Overall Grade: PASSED

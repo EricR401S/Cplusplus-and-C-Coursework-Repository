@@ -1,0 +1,12 @@
+d
+c
+c // not a, b, d
+b // not c, bnow correct
+d // not c 
+a
+d
+b
+a
+c
+d
+e // not c 4 wrong

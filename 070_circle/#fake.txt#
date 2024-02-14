@@ -1,0 +1,35 @@
+    def intersection_area(self, other_circle):
+        d = self.center.distance_from(other_circle.center)
+
+        if d >= (self.radius + other_circle.radius):
+            return 0
+
+        elif d <= (self.radius - other_circle.radius):
+            return math.pi * other_circle.radius**2
+
+        elif d <= (other_circle.radius - self.radius):
+            return math.pi * self.radius**2
+
+        else:
+            assert (
+                (self.radius - other_circle.radius)
+                < d
+                < (self.radius + other_circle.radius)
+            )
+
+            d1 = (self.radius**2 - other_circle.radius**2 + d**2) / (2 * d)
+
+            d2 = d - d1
+
+            Area = (
+                self.radius**2 * math.acos(d1 / self.radius)
+                - d1 * math.sqrt(self.radius**2 - d1**2)
+                + other_circle.radius**2 * math.acos(d2 / other_circle.radius)
+                - d2 * math.sqrt(other_circle.radius**2 - d2**2)
+            )
+
+            # print("The error is happening here, Professor!")
+
+            pass
+
+            return Area

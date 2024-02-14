@@ -1,0 +1,25 @@
+Grading at 09/08/2023:05:55:31.488345
+For commit ID 828b477386acaa30365479063b4f7a40e18ee3f1
+Grading at Fri Sep  8 01:55:30 AM EDT 2023
+Checking code2.c for legal syntax
+Checking for int printTriangle (int size)
+Found on line 4, column 1 
+Checking for int main(void)
+Found on line 28, column 1 
+Trying to run the code..
+Your file matched the expected output
+Removing your main() and replacing it with our own to run more tests...
+Testing printTriangle(0) ... Correct
+Testing printTriangle(1) ... Correct
+Testing printTriangle(2) ... Correct
+Testing printTriangle(3) ... Correct
+Testing printTriangle(4) ... Correct
+Testing printTriangle(7) ... Correct
+Testing printTriangle(9) ... Correct
+Testing printTriangle(12) ... Correct
+Testing printTriangle(61) ... Correct
+Testing printTriangle(148) ... Correct
+Testing printTriangle(1602) ... Correct
+Testing printTriangle(2392) ... Correct
+
+Overall Grade: A

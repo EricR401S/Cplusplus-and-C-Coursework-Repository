@@ -1,0 +1,11 @@
+d - silent fail
+d - local var and destructor
+b - error num to string
+b - no side effects
+b - reference to exception
+a - no exceptions
+c - frame is destroyed
+a - terminates  after calling unexpected //b
+d - nove of above memory is released and object is freed //c
+b - terminates everything
+a - xyz zrgs

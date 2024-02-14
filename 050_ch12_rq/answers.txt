@@ -1,0 +1,11 @@
+b - malloc allocates memory to the heap, double checked
+b - realloc extends the memory already specified by malloc, double checked
+k - void * malloc(size_t size), double checked
+d - int * p = malloc(16 * sizeof(*p), double checked
+b - 8 bytes, the pointer is not copied
+e - nothing happens, verified in chapter
+c - double frees a block of memory with q, checked it 
+b - not a malloc pointer p is not at start 
+c - mallocs a platform specific space 
+b - it goes by X's bytes given that Y is notNULL
+f - it changes the size to hold at least 7 chars and stores hello\n\0 

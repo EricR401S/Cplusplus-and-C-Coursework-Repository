@@ -1,0 +1,5 @@
+story1: generate_story.cpp my_story.hpp
+	g++ -o cyoa-step1 -std=gnu++98 -Wall -Werror -ggdb3 generate_story.cpp
+
+clean:
+	rm -f *~ story1

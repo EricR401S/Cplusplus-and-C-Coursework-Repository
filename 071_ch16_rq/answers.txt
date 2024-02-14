@@ -1,0 +1,8 @@
+a - use cout <<
+c - a reference to the stream used for insertion
+d - clear the data
+a - private fields and methods access
+e - four of them, the substring copies
+c - ofstream
+b - pass a filenameto the constructor
+c - format data into a buffer, not a string yet

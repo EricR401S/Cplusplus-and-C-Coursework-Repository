@@ -1,0 +1,24 @@
+Grading at 10/11/2023:19:39:05.512839
+For commit ID 21156e22585024e224f357e09c9b8e9c8d110d60
+Grading at Wed Oct 11 03:39:00 PM EDT 2023
+Attempting to compile minesweeper.c
+gcc -c -Wall -pedantic -std=gnu99 -Werror -ggdb3 minesweeper.c
+gcc -o minesweeper minesweeper.o future.o
+#################################################
+Test case 1:
+Your output is correct
+Valgrind was clean
+#################################################
+Test case 2:
+Your output is correct
+Valgrind was clean
+#################################################
+Test case 3:
+Your output is correct
+Valgrind was clean
+#################################################
+Test case 4:
+Your output is correct
+Valgrind was clean
+
+Overall Grade: A

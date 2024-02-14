@@ -1,0 +1,24 @@
+--checking choice pages--
+0:1:some text
+1:2:memories contakt
+1:3:custom robo
+2324132:332132:almost there
+2:cartoonnetwork
+beyblade
+:1:xmen
+a:a:supermanprime
+1::ranma
+
+      
+--checking declarations--
+0@W:page0.txt
+1N:page1.txt
+2@n:page2.txt
+3@Npage3.txt
+4@N:
+@N:page5.txt
+7@L:page7.txt
+888888a@N:pageneight.txt
+9@nnnL:d
+8@Nl:ddd
+0@W:page200.txt

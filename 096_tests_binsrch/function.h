@@ -1,0 +1,156 @@
+#ifndef __FUNCTION_H__
+#define __FUNCTION_H__
+
+#include <cmath>
+#include <iostream>
+
+template<typename R, typename A>
+class Function {
+ public:
+  virtual R invoke(A arg) = 0;
+  virtual ~Function() {}
+};
+
+class QuadFunctionA : public Function<int, int> {
+ public:
+  int invoke(int arg) { return pow(arg, 2) - 2 * arg - 15; }
+};
+
+class QuadFunctionB : public Function<int, int> {
+ public:
+  int invoke(int arg) { return pow(arg, 2) + 4 * arg + 4; }
+};
+
+class LinFunctionB : public Function<int, int> {
+ public:
+  int invoke(int arg) { return 2 * arg + 10; }
+};
+
+class LinFunctionA : public Function<int, int> {
+ public:
+  int invoke(int arg) { return arg; }
+};
+
+class LinFunctionC : public Function<int, int> {
+ public:
+  int invoke(int arg) { return 5 * arg - 100; }
+};
+
+// PROVIDED //
+// class CountedIntFn : public Function<int, int> {
+//  protected:
+//   unsigned remaining;
+//   Function<int, int> * f;
+//   const char * mesg;
+
+//  public:
+//   CountedIntFn(unsigned n, Function<int, int> * fn, const char * m) :
+//       remaining(n), f(fn), mesg(m) {}
+//   virtual int invoke(int arg) {
+//     if (remaining == 0) {
+//       fprintf(stderr, "Too many function invocations in %s\n", mesg);
+//       exit(EXIT_FAILURE);
+//     }
+//     remaining--;
+//     return f->invoke(arg);
+//   }
+// };
+// Modification of provided
+class CountedIntFn : public Function<int, int> {
+ protected:
+  unsigned remaining;
+  Function<int, int> * f;
+  const char * mesg;
+  //std::string mesg;
+
+ public:
+  CountedIntFn(unsigned n, Function<int, int> * fn, const char * m) :
+      remaining(n), f(fn), mesg(m) {}
+  virtual int invoke(int arg) {
+    if (remaining == 0) {
+      fprintf(stderr, "Too many function invocations in %s\n", mesg);
+
+      exit(EXIT_FAILURE);
+    }
+    remaining--;
+    return f->invoke(arg);
+  }
+};
+
+int binarySearchForZero(Function<int, int> * f, int low, int high);
+
+// int find_expected_ans(Function<int, int> * f, int low, int high) {
+//   int highest = f->invoke(high - 1);
+
+//   int lowest = f->invoke(low);
+
+//   if (highest > 0 && lowest > 0) {
+//     return low;
+//   }
+
+//   else if (highest < 0 && lowest < 0) {
+//     return high - 1;
+//   }
+
+//   else {
+//     int best_local_minimum = lowest;
+
+//     int best_local_x = low;
+
+//     for (int i = low; i < high; i++) {
+//       int result = f->invoke(i);
+
+//       if (result > best_local_minimum && result <= 0) {
+//         best_local_minimum = result;
+//         best_local_x = i;
+//       }
+//       else if (result > 0) {
+//         break;  // prevents infinite searching
+//       }
+//     }
+
+//     return best_local_x;
+//   }
+// }
+
+// void check(Function<int, int> * f,
+//            int low,
+//            int high,
+//            //int expected_ans,
+//            //const char * mesg)
+//            const std::string mesg) {
+//   //
+//   unsigned max_invocations;
+//   if (high > low) {
+//     max_invocations = log2(high - low) + 1;
+//   }
+//   else {
+//     max_invocations = 1;
+//   }
+
+//   int expected_ans = find_expected_ans(f, low, high);
+
+//   //CountedIntFn cfn = CountedIntFn(max_invocations, f, mesg);
+
+//   bool found = false;
+//   while (max_invocations > 0) {
+//     if (binarySearchForZero(f, low, high) == expected_ans) {
+//       found = true;
+//       break;
+//     }
+//     max_invocations--;
+//   }
+//   //while(cfn.invoke(int arg)
+//   //cfn.invoke(int arg)
+
+//   if (found) {
+//     return;
+//   }
+
+//   else {
+//     std::cerr << "Too many function invocations in " << mesg << "\n";
+//     exit(EXIT_FAILURE);
+//   }
+// };
+
+#endif
